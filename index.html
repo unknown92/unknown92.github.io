@@ -297,28 +297,32 @@
       
         
           
-            <h1 id="博客搭建记录-mac-Github-hexo"><a href="#博客搭建记录-mac-Github-hexo" class="headerlink" title="博客搭建记录-mac+Github+hexo"></a>博客搭建记录-mac+Github+hexo</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鉴于懒癌已经晚期，必须壮士断腕治上一治了。建个博客，大概会是个日记加笔记的混合体，而且还是个技术与非技术（护肤搭配买买买~(≧▽≦)/~啦啦啦）的混合体。第一篇，当然是记录博客搭建过程啦，废话结束，请看下文。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">博客有静态的有动态的，各自又有很多不同的博客系统(FarBox、Jekyll、Octopress、Hexo...)，直接看知乎的这篇帖吧，小白菜的我呢，就选最简单的了啦。</span><br><span class="line">https://www.zhihu.com/question/21981094</span><br></pre></td></tr></table></figure>
-<h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub是一个利用Git进行版本控制、专门用于存放软件代码与内容的共享虚拟主机服务。GitHub目前已经成为了世界上最大的代码存放网站和开源社区。<del>全球最大的同性交友平台，反正起码百分之八十是程序员，所以…</del>（大误）<br><a href="http://github.com/" target="_blank" rel="external">http://github.com/</a> 注册个账号就行</p>
-<h2 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;github提供的服务，可以简单的认为是托管在github上的静态网页，用户可以给项目建立介绍网点，当然，也可以用来搭建博客。<br><a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a> </p>
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鉴于懒癌已经晚期，必须壮士断腕治上一治了。建个博客，大概会是个日记加笔记的混合体，而且还是个技术与非技术（护肤搭配买买买~(≧▽≦)/~啦啦啦）的混合体。第一篇，当然是记录博客搭建过程啦，废话结束，请看下文。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;博客系统有很多，FarBox、Jekyll、Octopress、Hexo…有静态的有动态的，有免费也有收费，想做了解的可以看一下知乎的这篇帖<a href="https://www.zhihu.com/question/21981094" target="_blank" rel="external">https://www.zhihu.com/question/21981094</a></p>
+<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://github.com" target="_blank" rel="external">http://github.com</a>，欢迎来到全球最大的同性交友平台，开玩笑的😂<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Github是一个利用Git进行版本控制、专门用于存放软件代码与内容的共享虚拟主机服务。GitHub目前已经成为了世界上最大的代码存放网站和开源社区。包括Google、Facebook、Twitter、阿里巴巴、网易等公司都在github开源项目，造福人类啊，感激。</p>
+<h4 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h4><p>注册个账号就能使用，注册过程，略。</p>
+<h3 id="Github-Pages"><a href="#Github-Pages" class="headerlink" title="Github Pages"></a>Github Pages</h3><p><a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a> </p>
 <blockquote>
 <p>Websites for you and your projects.<br>Hosted directly from your GitHub repository. Just edit, push, and your changes are live.</p>
 </blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;github提供的服务，可以简单的认为是托管在github上的静态网页，用户可以给项目建立介绍网点，当然，也可以用来搭建博客。</p>
 <ul>
-<li>轻量级的博客系统，没有麻烦的配置</li>
+<li>轻量级，配置简单</li>
 <li>使用标记语言，比如Markdown，无需自己搭建服务器</li>
 <li>根据Github的限制，对应的每个站有300MB空间</li>
 <li>可以绑定自己的域名</li>
 </ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建个仓库，顾名思义，给你放东西用的，<code>create repository</code>就行，下面的步骤看了，然并卵。<br><img src="media/14641863033984/14641894628944.jpg" alt=""></p>
-<h2 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你的mac装了XCode，那git就不需要再装了，没装的话，git另外装一下咯。</p>
-<h2 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hexo是基于Node.js的，所以必须要装这个。</p>
+<h4 id="步骤-1"><a href="#步骤-1" class="headerlink" title="步骤"></a>步骤</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建个仓库，顾名思义，给你放东西用的，<code>create repository</code>就行，官网中其他的步骤看了一下，然并卵。<br><img src="http://o7rgqfxbv.bkt.clouddn.com/unknown92.github.io/github_create_repository.jpg" alt=""></p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
+<h4 id="步骤-2"><a href="#步骤-2" class="headerlink" title="步骤"></a>步骤</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你的mac装了XCode，那git就不需要再装了，没装的话，git另外装一下咯。</p>
+<h3 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h3><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hexo是基于Node.js的，所以必须要装这个。</p>
 <blockquote>
 <p>Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</p>
 </blockquote>
-<p><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a> 下载，安装，over</p>
-<h2 id="Sublime"><a href="#Sublime" class="headerlink" title="Sublime"></a>Sublime</h2><p>代码编辑器，好用，over</p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>接下来就开始安装Hexo了。（用的命令行，可能中途会出现卡了之类的情况，stop and restart，或者小黑板关掉重新打开）</p>
+<h4 id="步骤-3"><a href="#步骤-3" class="headerlink" title="步骤"></a>步骤</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a> 下载，安装，over</p>
+<h3 id="Sublime"><a href="#Sublime" class="headerlink" title="Sublime"></a>Sublime</h3><p>代码编辑器，好用，over</p>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a> 快速、简洁且高效的博客框架</p>
+<h4 id="步骤-4"><a href="#步骤-4" class="headerlink" title="步骤"></a>步骤</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接下来就开始安装Hexo了。（用的命令行，可能中途会出现卡了之类的情况，stop and restart，或者小黑板关掉重新打开）</p>
 <ol>
 <li><p>输入以下命令<br><code>npm install -g hexo</code></p>
 </li>
@@ -327,14 +331,13 @@ npm install</code></p>
 </li>
 <li>Hexo会自动建立文件，到这里，博客的初步搭建已经完成。</li>
 </ol>
-<p>##使用</p>
-<ul>
-<li><code>hexo g</code>  generate</li>
-<li><code>hexo s</code>  server，<a href="http://localhost:4000/，可以预览" target="_blank" rel="external">http://localhost:4000/，可以预览</a></li>
-<li><code>hexo d</code>  deploy,发布</li>
-<li>theme：NextT，有中文使用文档，里面有hexo的一些配置教程</li>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ul>
+<li><code>hexo g</code>  —— generate</li>
+<li><code>hexo s</code>  —— server，<a href="http://localhost:4000/，可以预览" target="_blank" rel="external">http://localhost:4000/，可以预览</a></li>
+<li><code>hexo d</code>  —— deploy，发布</li>
+<li>theme：NextT，github上开源的hexo的主题，有中文使用文档，里面有hexo的一些配置教程</li>
 </ul>
-<p>##参考<br> <a href="http://yebujimo.com/2015/03/15/Mac下搭建Hexo博客教程" target="_blank" rel="external">http://yebujimo.com/2015/03/15/Mac下搭建Hexo博客教程</a></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p> <a href="http://yebujimo.com/2015/03/15/Mac下搭建Hexo博客教程" target="_blank" rel="external">http://yebujimo.com/2015/03/15/Mac下搭建Hexo博客教程</a></p>
 
           
         
